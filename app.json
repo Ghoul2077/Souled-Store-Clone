@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "souled-store",
-    "slug": "souled-store",
+    "name": "souled-store-v2",
+    "slug": "souled-store-v2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -24,10 +23,14 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.souled.store"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "sentry-expo"
+    ]
   }
 }
